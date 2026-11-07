@@ -1,0 +1,1 @@
+/usr/bin/clang CMakeFiles/shell.dir/src/cd.c.o CMakeFiles/shell.dir/src/execute.c.o CMakeFiles/shell.dir/src/help.c.o CMakeFiles/shell.dir/src/history.c.o CMakeFiles/shell.dir/src/internal.c.o CMakeFiles/shell.dir/src/main.c.o CMakeFiles/shell.dir/src/read.c.o CMakeFiles/shell.dir/src/util.c.o -o shell 

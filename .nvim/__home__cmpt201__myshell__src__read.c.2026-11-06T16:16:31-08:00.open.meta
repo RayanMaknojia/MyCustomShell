@@ -1,0 +1,8 @@
+trigger:open
+undo_seq:0
+source_path:/home/cmpt201/myshell/src/read.c
+cursor:1,1
+lines:46
+changedtick:2
+reg_size:1
+source_relpath:src/read.c
