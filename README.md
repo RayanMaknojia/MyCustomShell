@@ -1,4 +1,4 @@
-# myshell
+# MyCustomshell
 
 A small Unix shell written in C. It reads commands, runs programs in child
 processes (foreground or background), and has a handful of built-in commands
