@@ -1,0 +1,6 @@
+echo "Hello   World"
+echo 'single quoted'
+echo hello\ world
+echo \"hi\"
+echo "a &"
+echo a&b
