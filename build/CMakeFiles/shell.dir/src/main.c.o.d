@@ -1,12 +1,12 @@
-CMakeFiles/shell.dir/src/main.c.o: /home/cmpt201/myshell/src/main.c \
-  /home/cmpt201/myshell/include/cd.h \
-  /home/cmpt201/myshell/include/execute.h \
+CMakeFiles/shell.dir/src/main.c.o: /home/cmpt201/MyCustomShell/src/main.c \
+  /home/cmpt201/MyCustomShell/include/cd.h \
+  /home/cmpt201/MyCustomShell/include/execute.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
-  /home/cmpt201/myshell/include/help.h \
-  /home/cmpt201/myshell/include/history.h \
-  /home/cmpt201/myshell/include/internal.h \
-  /home/cmpt201/myshell/include/msgs.h \
-  /home/cmpt201/myshell/include/read.h \
+  /home/cmpt201/MyCustomShell/include/help.h \
+  /home/cmpt201/MyCustomShell/include/history.h \
+  /home/cmpt201/MyCustomShell/include/internal.h \
+  /home/cmpt201/MyCustomShell/include/msgs.h \
+  /home/cmpt201/MyCustomShell/include/read.h \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
@@ -40,7 +40,7 @@ CMakeFiles/shell.dir/src/main.c.o: /home/cmpt201/myshell/src/main.c \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /home/cmpt201/myshell/include/util.h /usr/include/errno.h \
+  /home/cmpt201/MyCustomShell/include/util.h /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \

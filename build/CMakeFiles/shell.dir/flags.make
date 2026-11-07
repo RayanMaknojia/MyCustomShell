@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = 
 
-C_INCLUDES = -I/home/cmpt201/myshell/include
+C_INCLUDES = -I/home/cmpt201/MyCustomShell/include
 
 C_FLAGS = -Wall -Wextra -g
 

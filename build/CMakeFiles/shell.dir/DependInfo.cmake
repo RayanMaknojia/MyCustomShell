@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/cmpt201/myshell/src/cd.c" "CMakeFiles/shell.dir/src/cd.c.o" "gcc" "CMakeFiles/shell.dir/src/cd.c.o.d"
-  "/home/cmpt201/myshell/src/execute.c" "CMakeFiles/shell.dir/src/execute.c.o" "gcc" "CMakeFiles/shell.dir/src/execute.c.o.d"
-  "/home/cmpt201/myshell/src/help.c" "CMakeFiles/shell.dir/src/help.c.o" "gcc" "CMakeFiles/shell.dir/src/help.c.o.d"
-  "/home/cmpt201/myshell/src/history.c" "CMakeFiles/shell.dir/src/history.c.o" "gcc" "CMakeFiles/shell.dir/src/history.c.o.d"
-  "/home/cmpt201/myshell/src/internal.c" "CMakeFiles/shell.dir/src/internal.c.o" "gcc" "CMakeFiles/shell.dir/src/internal.c.o.d"
-  "/home/cmpt201/myshell/src/main.c" "CMakeFiles/shell.dir/src/main.c.o" "gcc" "CMakeFiles/shell.dir/src/main.c.o.d"
-  "/home/cmpt201/myshell/src/read.c" "CMakeFiles/shell.dir/src/read.c.o" "gcc" "CMakeFiles/shell.dir/src/read.c.o.d"
-  "/home/cmpt201/myshell/src/util.c" "CMakeFiles/shell.dir/src/util.c.o" "gcc" "CMakeFiles/shell.dir/src/util.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/cd.c" "CMakeFiles/shell.dir/src/cd.c.o" "gcc" "CMakeFiles/shell.dir/src/cd.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/execute.c" "CMakeFiles/shell.dir/src/execute.c.o" "gcc" "CMakeFiles/shell.dir/src/execute.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/help.c" "CMakeFiles/shell.dir/src/help.c.o" "gcc" "CMakeFiles/shell.dir/src/help.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/history.c" "CMakeFiles/shell.dir/src/history.c.o" "gcc" "CMakeFiles/shell.dir/src/history.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/internal.c" "CMakeFiles/shell.dir/src/internal.c.o" "gcc" "CMakeFiles/shell.dir/src/internal.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/main.c" "CMakeFiles/shell.dir/src/main.c.o" "gcc" "CMakeFiles/shell.dir/src/main.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/read.c" "CMakeFiles/shell.dir/src/read.c.o" "gcc" "CMakeFiles/shell.dir/src/read.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/util.c" "CMakeFiles/shell.dir/src/util.c.o" "gcc" "CMakeFiles/shell.dir/src/util.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

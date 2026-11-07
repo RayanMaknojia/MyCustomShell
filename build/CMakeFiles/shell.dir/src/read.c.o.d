@@ -1,5 +1,5 @@
-CMakeFiles/shell.dir/src/read.c.o: /home/cmpt201/myshell/src/read.c \
-  /home/cmpt201/myshell/include/read.h \
+CMakeFiles/shell.dir/src/read.c.o: /home/cmpt201/MyCustomShell/src/read.c \
+  /home/cmpt201/MyCustomShell/include/read.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \

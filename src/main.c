@@ -27,7 +27,7 @@ int main(void) {
   char line[2048]; // untouched copy for history, since tokenize() edits buf
   char *argv[MAX_ARGS + 1];
   bool background;
-
+  bool interactive = isatty(STDIN_FILENO); // false for pipes and files
   // read() fails with EINTR,
   struct sigaction sa;
   sa.sa_handler = handle_sigint;
@@ -41,8 +41,10 @@ int main(void) {
     if (cwd == NULL) {
       print_error("shell", GETCWD_ERROR_MSG);
     } else {
-      printf("%s$ ", cwd);
-      fflush(stdout);
+      if (interactive) {
+        printf("%s$ ", cwd);
+        fflush(stdout);
+      }
       free(cwd);
     }
 
@@ -57,7 +59,9 @@ int main(void) {
       break;
     }
     if (n == 0) {
-      printf("\n");
+      if (interactive) {
+        printf("\n");
+      }
       break;
     }
 

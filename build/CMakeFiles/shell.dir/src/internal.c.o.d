@@ -1,11 +1,11 @@
 CMakeFiles/shell.dir/src/internal.c.o: \
-  /home/cmpt201/myshell/src/internal.c \
-  /home/cmpt201/myshell/include/internal.h \
-  /home/cmpt201/myshell/include/cd.h \
-  /home/cmpt201/myshell/include/help.h \
-  /home/cmpt201/myshell/include/history.h \
-  /home/cmpt201/myshell/include/msgs.h \
-  /home/cmpt201/myshell/include/util.h /usr/include/stdio.h \
+  /home/cmpt201/MyCustomShell/src/internal.c \
+  /home/cmpt201/MyCustomShell/include/internal.h \
+  /home/cmpt201/MyCustomShell/include/cd.h \
+  /home/cmpt201/MyCustomShell/include/help.h \
+  /home/cmpt201/MyCustomShell/include/history.h \
+  /home/cmpt201/MyCustomShell/include/msgs.h \
+  /home/cmpt201/MyCustomShell/include/util.h /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cmpt201/myshell
+CMAKE_SOURCE_DIR = /home/cmpt201/MyCustomShell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cmpt201/myshell/build
+CMAKE_BINARY_DIR = /home/cmpt201/MyCustomShell/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/shell.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/shell.dir/progress.make
 include CMakeFiles/shell.dir/flags.make
 
 CMakeFiles/shell.dir/src/cd.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/cd.c.o: /home/cmpt201/myshell/src/cd.c
+CMakeFiles/shell.dir/src/cd.c.o: /home/cmpt201/MyCustomShell/src/cd.c
 CMakeFiles/shell.dir/src/cd.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/shell.dir/src/cd.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/cd.c.o -MF CMakeFiles/shell.dir/src/cd.c.o.d -o CMakeFiles/shell.dir/src/cd.c.o -c /home/cmpt201/myshell/src/cd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/shell.dir/src/cd.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/cd.c.o -MF CMakeFiles/shell.dir/src/cd.c.o.d -o CMakeFiles/shell.dir/src/cd.c.o -c /home/cmpt201/MyCustomShell/src/cd.c
 
 CMakeFiles/shell.dir/src/cd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/cd.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/cd.c > CMakeFiles/shell.dir/src/cd.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/cd.c > CMakeFiles/shell.dir/src/cd.c.i
 
 CMakeFiles/shell.dir/src/cd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/cd.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/cd.c -o CMakeFiles/shell.dir/src/cd.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/cd.c -o CMakeFiles/shell.dir/src/cd.c.s
 
 CMakeFiles/shell.dir/src/execute.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/execute.c.o: /home/cmpt201/myshell/src/execute.c
+CMakeFiles/shell.dir/src/execute.c.o: /home/cmpt201/MyCustomShell/src/execute.c
 CMakeFiles/shell.dir/src/execute.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shell.dir/src/execute.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/execute.c.o -MF CMakeFiles/shell.dir/src/execute.c.o.d -o CMakeFiles/shell.dir/src/execute.c.o -c /home/cmpt201/myshell/src/execute.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/shell.dir/src/execute.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/execute.c.o -MF CMakeFiles/shell.dir/src/execute.c.o.d -o CMakeFiles/shell.dir/src/execute.c.o -c /home/cmpt201/MyCustomShell/src/execute.c
 
 CMakeFiles/shell.dir/src/execute.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/execute.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/execute.c > CMakeFiles/shell.dir/src/execute.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/execute.c > CMakeFiles/shell.dir/src/execute.c.i
 
 CMakeFiles/shell.dir/src/execute.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/execute.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/execute.c -o CMakeFiles/shell.dir/src/execute.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/execute.c -o CMakeFiles/shell.dir/src/execute.c.s
 
 CMakeFiles/shell.dir/src/help.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/help.c.o: /home/cmpt201/myshell/src/help.c
+CMakeFiles/shell.dir/src/help.c.o: /home/cmpt201/MyCustomShell/src/help.c
 CMakeFiles/shell.dir/src/help.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/shell.dir/src/help.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/help.c.o -MF CMakeFiles/shell.dir/src/help.c.o.d -o CMakeFiles/shell.dir/src/help.c.o -c /home/cmpt201/myshell/src/help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/shell.dir/src/help.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/help.c.o -MF CMakeFiles/shell.dir/src/help.c.o.d -o CMakeFiles/shell.dir/src/help.c.o -c /home/cmpt201/MyCustomShell/src/help.c
 
 CMakeFiles/shell.dir/src/help.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/help.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/help.c > CMakeFiles/shell.dir/src/help.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/help.c > CMakeFiles/shell.dir/src/help.c.i
 
 CMakeFiles/shell.dir/src/help.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/help.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/help.c -o CMakeFiles/shell.dir/src/help.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/help.c -o CMakeFiles/shell.dir/src/help.c.s
 
 CMakeFiles/shell.dir/src/history.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/history.c.o: /home/cmpt201/myshell/src/history.c
+CMakeFiles/shell.dir/src/history.c.o: /home/cmpt201/MyCustomShell/src/history.c
 CMakeFiles/shell.dir/src/history.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/shell.dir/src/history.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/history.c.o -MF CMakeFiles/shell.dir/src/history.c.o.d -o CMakeFiles/shell.dir/src/history.c.o -c /home/cmpt201/myshell/src/history.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/shell.dir/src/history.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/history.c.o -MF CMakeFiles/shell.dir/src/history.c.o.d -o CMakeFiles/shell.dir/src/history.c.o -c /home/cmpt201/MyCustomShell/src/history.c
 
 CMakeFiles/shell.dir/src/history.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/history.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/history.c > CMakeFiles/shell.dir/src/history.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/history.c > CMakeFiles/shell.dir/src/history.c.i
 
 CMakeFiles/shell.dir/src/history.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/history.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/history.c -o CMakeFiles/shell.dir/src/history.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/history.c -o CMakeFiles/shell.dir/src/history.c.s
 
 CMakeFiles/shell.dir/src/internal.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/internal.c.o: /home/cmpt201/myshell/src/internal.c
+CMakeFiles/shell.dir/src/internal.c.o: /home/cmpt201/MyCustomShell/src/internal.c
 CMakeFiles/shell.dir/src/internal.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/shell.dir/src/internal.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/internal.c.o -MF CMakeFiles/shell.dir/src/internal.c.o.d -o CMakeFiles/shell.dir/src/internal.c.o -c /home/cmpt201/myshell/src/internal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/shell.dir/src/internal.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/internal.c.o -MF CMakeFiles/shell.dir/src/internal.c.o.d -o CMakeFiles/shell.dir/src/internal.c.o -c /home/cmpt201/MyCustomShell/src/internal.c
 
 CMakeFiles/shell.dir/src/internal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/internal.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/internal.c > CMakeFiles/shell.dir/src/internal.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/internal.c > CMakeFiles/shell.dir/src/internal.c.i
 
 CMakeFiles/shell.dir/src/internal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/internal.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/internal.c -o CMakeFiles/shell.dir/src/internal.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/internal.c -o CMakeFiles/shell.dir/src/internal.c.s
 
 CMakeFiles/shell.dir/src/main.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/main.c.o: /home/cmpt201/myshell/src/main.c
+CMakeFiles/shell.dir/src/main.c.o: /home/cmpt201/MyCustomShell/src/main.c
 CMakeFiles/shell.dir/src/main.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/shell.dir/src/main.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/main.c.o -MF CMakeFiles/shell.dir/src/main.c.o.d -o CMakeFiles/shell.dir/src/main.c.o -c /home/cmpt201/myshell/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/shell.dir/src/main.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/main.c.o -MF CMakeFiles/shell.dir/src/main.c.o.d -o CMakeFiles/shell.dir/src/main.c.o -c /home/cmpt201/MyCustomShell/src/main.c
 
 CMakeFiles/shell.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/main.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/main.c > CMakeFiles/shell.dir/src/main.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/main.c > CMakeFiles/shell.dir/src/main.c.i
 
 CMakeFiles/shell.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/main.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/main.c -o CMakeFiles/shell.dir/src/main.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/main.c -o CMakeFiles/shell.dir/src/main.c.s
 
 CMakeFiles/shell.dir/src/read.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/read.c.o: /home/cmpt201/myshell/src/read.c
+CMakeFiles/shell.dir/src/read.c.o: /home/cmpt201/MyCustomShell/src/read.c
 CMakeFiles/shell.dir/src/read.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/shell.dir/src/read.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/read.c.o -MF CMakeFiles/shell.dir/src/read.c.o.d -o CMakeFiles/shell.dir/src/read.c.o -c /home/cmpt201/myshell/src/read.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/shell.dir/src/read.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/read.c.o -MF CMakeFiles/shell.dir/src/read.c.o.d -o CMakeFiles/shell.dir/src/read.c.o -c /home/cmpt201/MyCustomShell/src/read.c
 
 CMakeFiles/shell.dir/src/read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/read.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/read.c > CMakeFiles/shell.dir/src/read.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/read.c > CMakeFiles/shell.dir/src/read.c.i
 
 CMakeFiles/shell.dir/src/read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/read.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/read.c -o CMakeFiles/shell.dir/src/read.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/read.c -o CMakeFiles/shell.dir/src/read.c.s
 
 CMakeFiles/shell.dir/src/util.c.o: CMakeFiles/shell.dir/flags.make
-CMakeFiles/shell.dir/src/util.c.o: /home/cmpt201/myshell/src/util.c
+CMakeFiles/shell.dir/src/util.c.o: /home/cmpt201/MyCustomShell/src/util.c
 CMakeFiles/shell.dir/src/util.c.o: CMakeFiles/shell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/shell.dir/src/util.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/util.c.o -MF CMakeFiles/shell.dir/src/util.c.o.d -o CMakeFiles/shell.dir/src/util.c.o -c /home/cmpt201/myshell/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/shell.dir/src/util.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/shell.dir/src/util.c.o -MF CMakeFiles/shell.dir/src/util.c.o.d -o CMakeFiles/shell.dir/src/util.c.o -c /home/cmpt201/MyCustomShell/src/util.c
 
 CMakeFiles/shell.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/shell.dir/src/util.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/myshell/src/util.c > CMakeFiles/shell.dir/src/util.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cmpt201/MyCustomShell/src/util.c > CMakeFiles/shell.dir/src/util.c.i
 
 CMakeFiles/shell.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/shell.dir/src/util.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/myshell/src/util.c -o CMakeFiles/shell.dir/src/util.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cmpt201/MyCustomShell/src/util.c -o CMakeFiles/shell.dir/src/util.c.s
 
 # Object files for target shell
 shell_OBJECTS = \
@@ -205,7 +205,7 @@ shell: CMakeFiles/shell.dir/src/read.c.o
 shell: CMakeFiles/shell.dir/src/util.c.o
 shell: CMakeFiles/shell.dir/build.make
 shell: CMakeFiles/shell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cmpt201/myshell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable shell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/shell.dir/clean:
 .PHONY : CMakeFiles/shell.dir/clean
 
 CMakeFiles/shell.dir/depend:
-	cd /home/cmpt201/myshell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cmpt201/myshell /home/cmpt201/myshell /home/cmpt201/myshell/build /home/cmpt201/myshell/build /home/cmpt201/myshell/build/CMakeFiles/shell.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/cmpt201/MyCustomShell/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cmpt201/MyCustomShell /home/cmpt201/MyCustomShell /home/cmpt201/MyCustomShell/build /home/cmpt201/MyCustomShell/build /home/cmpt201/MyCustomShell/build/CMakeFiles/shell.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/shell.dir/depend
 

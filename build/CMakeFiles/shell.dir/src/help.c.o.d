@@ -1,6 +1,6 @@
-CMakeFiles/shell.dir/src/help.c.o: /home/cmpt201/myshell/src/help.c \
-  /home/cmpt201/myshell/include/help.h \
-  /home/cmpt201/myshell/include/msgs.h /usr/include/stdio.h \
+CMakeFiles/shell.dir/src/help.c.o: /home/cmpt201/MyCustomShell/src/help.c \
+  /home/cmpt201/MyCustomShell/include/help.h \
+  /home/cmpt201/MyCustomShell/include/msgs.h /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -30,7 +30,7 @@ CMakeFiles/shell.dir/src/help.c.o: /home/cmpt201/myshell/src/help.c \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/strings.h /home/cmpt201/myshell/include/util.h \
+  /usr/include/strings.h /home/cmpt201/MyCustomShell/include/util.h \
   /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \

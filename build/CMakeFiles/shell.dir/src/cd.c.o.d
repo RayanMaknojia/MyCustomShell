@@ -1,7 +1,7 @@
-CMakeFiles/shell.dir/src/cd.c.o: /home/cmpt201/myshell/src/cd.c \
-  /home/cmpt201/myshell/include/cd.h \
-  /home/cmpt201/myshell/include/msgs.h \
-  /home/cmpt201/myshell/include/util.h /usr/include/pwd.h \
+CMakeFiles/shell.dir/src/cd.c.o: /home/cmpt201/MyCustomShell/src/cd.c \
+  /home/cmpt201/MyCustomShell/include/cd.h \
+  /home/cmpt201/MyCustomShell/include/msgs.h \
+  /home/cmpt201/MyCustomShell/include/util.h /usr/include/pwd.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \

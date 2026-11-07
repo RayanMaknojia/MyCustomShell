@@ -1,8 +1,9 @@
-CMakeFiles/shell.dir/src/execute.c.o: /home/cmpt201/myshell/src/execute.c \
-  /home/cmpt201/myshell/include/execute.h \
+CMakeFiles/shell.dir/src/execute.c.o: \
+  /home/cmpt201/MyCustomShell/src/execute.c \
+  /home/cmpt201/MyCustomShell/include/execute.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
-  /home/cmpt201/myshell/include/msgs.h \
-  /home/cmpt201/myshell/include/util.h /usr/include/errno.h \
+  /home/cmpt201/MyCustomShell/include/msgs.h \
+  /home/cmpt201/MyCustomShell/include/util.h /usr/include/errno.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \

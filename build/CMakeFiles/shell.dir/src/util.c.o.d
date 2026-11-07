@@ -1,6 +1,6 @@
-CMakeFiles/shell.dir/src/util.c.o: /home/cmpt201/myshell/src/util.c \
-  /home/cmpt201/myshell/include/util.h \
-  /home/cmpt201/myshell/include/msgs.h /usr/include/stdio.h \
+CMakeFiles/shell.dir/src/util.c.o: /home/cmpt201/MyCustomShell/src/util.c \
+  /home/cmpt201/MyCustomShell/include/util.h \
+  /home/cmpt201/MyCustomShell/include/msgs.h /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
