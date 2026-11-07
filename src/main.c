@@ -52,6 +52,7 @@ int main(void) {
       break;
     }
     if (n == 0) {
+      printf("\n");
       break;
     }
 
@@ -59,6 +60,10 @@ int main(void) {
     char *p = buf;
     while (*p == ' ' || *p == '\t') {
       p++;
+    }
+    size_t plen = strlen(p);
+    while (plen > 0 && (p[plen - 1] == ' ' || p[plen - 1] == '\t')) {
+      p[--plen] = '\0';
     }
     if (p[0] == '!') {
       const char *cmd = NULL;
