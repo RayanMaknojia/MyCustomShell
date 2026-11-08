@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cmpt201/MyCustomShell/src/help.c" "CMakeFiles/shell.dir/src/help.c.o" "gcc" "CMakeFiles/shell.dir/src/help.c.o.d"
   "/home/cmpt201/MyCustomShell/src/history.c" "CMakeFiles/shell.dir/src/history.c.o" "gcc" "CMakeFiles/shell.dir/src/history.c.o.d"
   "/home/cmpt201/MyCustomShell/src/internal.c" "CMakeFiles/shell.dir/src/internal.c.o" "gcc" "CMakeFiles/shell.dir/src/internal.c.o.d"
+  "/home/cmpt201/MyCustomShell/src/lexer.c" "CMakeFiles/shell.dir/src/lexer.c.o" "gcc" "CMakeFiles/shell.dir/src/lexer.c.o.d"
   "/home/cmpt201/MyCustomShell/src/main.c" "CMakeFiles/shell.dir/src/main.c.o" "gcc" "CMakeFiles/shell.dir/src/main.c.o.d"
   "/home/cmpt201/MyCustomShell/src/read.c" "CMakeFiles/shell.dir/src/read.c.o" "gcc" "CMakeFiles/shell.dir/src/read.c.o.d"
   "/home/cmpt201/MyCustomShell/src/util.c" "CMakeFiles/shell.dir/src/util.c.o" "gcc" "CMakeFiles/shell.dir/src/util.c.o.d"

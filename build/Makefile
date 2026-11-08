@@ -129,6 +129,19 @@ shell/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/build
 .PHONY : shell/fast
 
+#=============================================================================
+# Target rules for targets named lexdump
+
+# Build rule for target.
+lexdump: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lexdump
+.PHONY : lexdump
+
+# fast build rule for target.
+lexdump/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/build
+.PHONY : lexdump/fast
+
 src/cd.o: src/cd.c.o
 .PHONY : src/cd.o
 
@@ -249,6 +262,33 @@ src/internal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/internal.c.s
 .PHONY : src/internal.c.s
 
+src/lexer.o: src/lexer.c.o
+.PHONY : src/lexer.o
+
+# target to build an object file
+src/lexer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/lexer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/src/lexer.c.o
+.PHONY : src/lexer.c.o
+
+src/lexer.i: src/lexer.c.i
+.PHONY : src/lexer.i
+
+# target to preprocess a source file
+src/lexer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/lexer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/src/lexer.c.i
+.PHONY : src/lexer.c.i
+
+src/lexer.s: src/lexer.c.s
+.PHONY : src/lexer.s
+
+# target to generate assembly for a file
+src/lexer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/lexer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/src/lexer.c.s
+.PHONY : src/lexer.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -321,6 +361,30 @@ src/util.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/util.c.s
 .PHONY : src/util.c.s
 
+tools/lexdump.o: tools/lexdump.c.o
+.PHONY : tools/lexdump.o
+
+# target to build an object file
+tools/lexdump.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/tools/lexdump.c.o
+.PHONY : tools/lexdump.c.o
+
+tools/lexdump.i: tools/lexdump.c.i
+.PHONY : tools/lexdump.i
+
+# target to preprocess a source file
+tools/lexdump.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/tools/lexdump.c.i
+.PHONY : tools/lexdump.c.i
+
+tools/lexdump.s: tools/lexdump.c.s
+.PHONY : tools/lexdump.s
+
+# target to generate assembly for a file
+tools/lexdump.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/tools/lexdump.c.s
+.PHONY : tools/lexdump.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -329,6 +393,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... lexdump"
 	@echo "... shell"
 	@echo "... src/cd.o"
 	@echo "... src/cd.i"
@@ -345,6 +410,9 @@ help:
 	@echo "... src/internal.o"
 	@echo "... src/internal.i"
 	@echo "... src/internal.s"
+	@echo "... src/lexer.o"
+	@echo "... src/lexer.i"
+	@echo "... src/lexer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -354,6 +422,9 @@ help:
 	@echo "... src/util.o"
 	@echo "... src/util.i"
 	@echo "... src/util.s"
+	@echo "... tools/lexdump.o"
+	@echo "... tools/lexdump.i"
+	@echo "... tools/lexdump.s"
 .PHONY : help
 
 

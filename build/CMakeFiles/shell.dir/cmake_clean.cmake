@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/shell.dir/src/history.c.o.d"
   "CMakeFiles/shell.dir/src/internal.c.o"
   "CMakeFiles/shell.dir/src/internal.c.o.d"
+  "CMakeFiles/shell.dir/src/lexer.c.o"
+  "CMakeFiles/shell.dir/src/lexer.c.o.d"
   "CMakeFiles/shell.dir/src/main.c.o"
   "CMakeFiles/shell.dir/src/main.c.o.d"
   "CMakeFiles/shell.dir/src/read.c.o"

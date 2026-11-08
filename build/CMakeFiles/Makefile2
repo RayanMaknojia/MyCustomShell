@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/cmpt201/MyCustomShell/build
 
 # The main recursive "all" target.
 all: CMakeFiles/shell.dir/all
+all: CMakeFiles/lexdump.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/shell.dir/clean
+clean: CMakeFiles/lexdump.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,12 +83,12 @@ clean: CMakeFiles/shell.dir/clean
 CMakeFiles/shell.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13 "Built target shell"
 .PHONY : CMakeFiles/shell.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shell.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shell.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 0
 .PHONY : CMakeFiles/shell.dir/rule
@@ -99,6 +101,32 @@ shell: CMakeFiles/shell.dir/rule
 CMakeFiles/shell.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/clean
 .PHONY : CMakeFiles/shell.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lexdump.dir
+
+# All Build rule for target.
+CMakeFiles/lexdump.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=1,2,3 "Built target lexdump"
+.PHONY : CMakeFiles/lexdump.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lexdump.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lexdump.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 0
+.PHONY : CMakeFiles/lexdump.dir/rule
+
+# Convenience name for target.
+lexdump: CMakeFiles/lexdump.dir/rule
+.PHONY : lexdump
+
+# clean rule for target.
+CMakeFiles/lexdump.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/clean
+.PHONY : CMakeFiles/lexdump.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

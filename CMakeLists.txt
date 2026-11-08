@@ -11,3 +11,6 @@ file(GLOB SOURCES "src/*.c")
 add_executable(shell ${SOURCES} )
 target_compile_options(shell PRIVATE -Wall -Wextra -g)
 
+add_executable(lexdump tools/lexdump.c src/lexer.c)
+target_include_directories(lexdump PRIVATE include)
+target_compile_options(lexdump PRIVATE -Wall -Wextra -g)

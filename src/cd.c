@@ -2,6 +2,7 @@
 #include "msgs.h"
 #include "util.h"
 #include <pwd.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,11 +11,11 @@
 
 static char *prev_dir = NULL;
 void do_cd(int argc, char *argv[]) {
-
   if (argc > 2) {
     print_error("cd", TMA_MSG);
     return;
   }
+  bool print_target = false;
   const char *target = NULL;
   char *to_free = NULL;
 
@@ -42,6 +43,7 @@ void do_cd(int argc, char *argv[]) {
       return;
     }
     target = prev_dir;
+    print_target = true;
   } else {
     target = argv[1];
   }
@@ -50,9 +52,14 @@ void do_cd(int argc, char *argv[]) {
   if (chdir(target) == -1) {
     print_error("cd", CHDIR_ERROR_MSG);
     free(old);
-  } else if (old != NULL) {
-    free(prev_dir);
-    prev_dir = old;
+  } else {
+    if (print_target) {
+      printf("%s\n", target);
+    }
+    if (old != NULL) {
+      free(prev_dir);
+      prev_dir = old;
+    }
   }
   free(to_free);
 }

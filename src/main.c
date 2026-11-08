@@ -19,7 +19,9 @@
 
 static void handle_sigint(int sig) {
   (void)sig;
+  int saved_errno = errno;
   help_signal();
+  errno = saved_errno;
 }
 
 int main(void) {

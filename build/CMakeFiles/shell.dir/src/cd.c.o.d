@@ -14,7 +14,8 @@ CMakeFiles/shell.dir/src/cd.c.o: /home/cmpt201/MyCustomShell/src/cd.c \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdbool.h /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
   /usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
