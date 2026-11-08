@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/shell.dir/src/lexer.c.o.d"
   "CMakeFiles/shell.dir/src/main.c.o"
   "CMakeFiles/shell.dir/src/main.c.o.d"
+  "CMakeFiles/shell.dir/src/parser.c.o"
+  "CMakeFiles/shell.dir/src/parser.c.o.d"
   "CMakeFiles/shell.dir/src/read.c.o"
   "CMakeFiles/shell.dir/src/read.c.o.d"
   "CMakeFiles/shell.dir/src/util.c.o"

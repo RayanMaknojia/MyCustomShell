@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/cmpt201/MyCustomShell/build
 # The main recursive "all" target.
 all: CMakeFiles/shell.dir/all
 all: CMakeFiles/lexdump.dir/all
+all: CMakeFiles/parsedump.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/shell.dir/clean
 clean: CMakeFiles/lexdump.dir/clean
+clean: CMakeFiles/parsedump.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,12 +85,12 @@ clean: CMakeFiles/lexdump.dir/clean
 CMakeFiles/shell.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13 "Built target shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18 "Built target shell"
 .PHONY : CMakeFiles/shell.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/shell.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/shell.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 0
 .PHONY : CMakeFiles/shell.dir/rule
@@ -127,6 +129,32 @@ lexdump: CMakeFiles/lexdump.dir/rule
 CMakeFiles/lexdump.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/clean
 .PHONY : CMakeFiles/lexdump.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/parsedump.dir
+
+# All Build rule for target.
+CMakeFiles/parsedump.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cmpt201/MyCustomShell/build/CMakeFiles --progress-num=4,5,6,7 "Built target parsedump"
+.PHONY : CMakeFiles/parsedump.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/parsedump.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/parsedump.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cmpt201/MyCustomShell/build/CMakeFiles 0
+.PHONY : CMakeFiles/parsedump.dir/rule
+
+# Convenience name for target.
+parsedump: CMakeFiles/parsedump.dir/rule
+.PHONY : parsedump
+
+# clean rule for target.
+CMakeFiles/parsedump.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/clean
+.PHONY : CMakeFiles/parsedump.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -335,6 +335,33 @@ CMakeFiles/shell.dir/src/internal.c.o: /home/cmpt201/MyCustomShell/src/internal.
   /usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h
 
+CMakeFiles/shell.dir/src/lexer.c.o: /home/cmpt201/MyCustomShell/src/lexer.c \
+  /home/cmpt201/MyCustomShell/include/lexer.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdbool.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stddef.h
+
 CMakeFiles/shell.dir/src/main.c.o: /home/cmpt201/MyCustomShell/src/main.c \
   /home/cmpt201/MyCustomShell/include/cd.h \
   /home/cmpt201/MyCustomShell/include/execute.h \
@@ -592,6 +619,8 @@ CMakeFiles/shell.dir/src/util.c.o: /home/cmpt201/MyCustomShell/src/util.c \
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
+/home/cmpt201/MyCustomShell/src/lexer.c:
+
 /home/cmpt201/MyCustomShell/include/help.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -677,6 +706,8 @@ CMakeFiles/shell.dir/src/util.c.o: /home/cmpt201/MyCustomShell/src/util.c \
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /home/cmpt201/MyCustomShell/include/msgs.h:
+
+/home/cmpt201/MyCustomShell/include/lexer.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 

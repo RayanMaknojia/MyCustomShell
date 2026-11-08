@@ -1,4 +1,5 @@
 /home/cmpt201/MyCustomShell/build/CMakeFiles/shell.dir
 /home/cmpt201/MyCustomShell/build/CMakeFiles/lexdump.dir
+/home/cmpt201/MyCustomShell/build/CMakeFiles/parsedump.dir
 /home/cmpt201/MyCustomShell/build/CMakeFiles/edit_cache.dir
 /home/cmpt201/MyCustomShell/build/CMakeFiles/rebuild_cache.dir

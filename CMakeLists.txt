@@ -14,3 +14,7 @@ target_compile_options(shell PRIVATE -Wall -Wextra -g)
 add_executable(lexdump tools/lexdump.c src/lexer.c)
 target_include_directories(lexdump PRIVATE include)
 target_compile_options(lexdump PRIVATE -Wall -Wextra -g)
+
+add_executable(parsedump tools/parsedump.c src/lexer.c src/parser.c)
+target_include_directories(parsedump PRIVATE include)
+target_compile_options(parsedump PRIVATE -Wall -Wextra -g)

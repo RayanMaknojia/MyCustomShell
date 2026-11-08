@@ -49,4 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/shell.dir/DependInfo.cmake"
   "CMakeFiles/lexdump.dir/DependInfo.cmake"
+  "CMakeFiles/parsedump.dir/DependInfo.cmake"
   )

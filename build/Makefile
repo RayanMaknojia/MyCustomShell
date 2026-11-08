@@ -142,6 +142,19 @@ lexdump/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/build
 .PHONY : lexdump/fast
 
+#=============================================================================
+# Target rules for targets named parsedump
+
+# Build rule for target.
+parsedump: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parsedump
+.PHONY : parsedump
+
+# fast build rule for target.
+parsedump/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/build
+.PHONY : parsedump/fast
+
 src/cd.o: src/cd.c.o
 .PHONY : src/cd.o
 
@@ -269,6 +282,7 @@ src/lexer.o: src/lexer.c.o
 src/lexer.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/lexer.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/src/lexer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/src/lexer.c.o
 .PHONY : src/lexer.c.o
 
 src/lexer.i: src/lexer.c.i
@@ -278,6 +292,7 @@ src/lexer.i: src/lexer.c.i
 src/lexer.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/lexer.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/src/lexer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/src/lexer.c.i
 .PHONY : src/lexer.c.i
 
 src/lexer.s: src/lexer.c.s
@@ -287,6 +302,7 @@ src/lexer.s: src/lexer.c.s
 src/lexer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/lexer.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/src/lexer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/src/lexer.c.s
 .PHONY : src/lexer.c.s
 
 src/main.o: src/main.c.o
@@ -312,6 +328,33 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/parser.o: src/parser.c.o
+.PHONY : src/parser.o
+
+# target to build an object file
+src/parser.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/parser.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/src/parser.c.o
+.PHONY : src/parser.c.o
+
+src/parser.i: src/parser.c.i
+.PHONY : src/parser.i
+
+# target to preprocess a source file
+src/parser.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/parser.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/src/parser.c.i
+.PHONY : src/parser.c.i
+
+src/parser.s: src/parser.c.s
+.PHONY : src/parser.s
+
+# target to generate assembly for a file
+src/parser.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shell.dir/build.make CMakeFiles/shell.dir/src/parser.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/src/parser.c.s
+.PHONY : src/parser.c.s
 
 src/read.o: src/read.c.o
 .PHONY : src/read.o
@@ -385,6 +428,30 @@ tools/lexdump.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lexdump.dir/build.make CMakeFiles/lexdump.dir/tools/lexdump.c.s
 .PHONY : tools/lexdump.c.s
 
+tools/parsedump.o: tools/parsedump.c.o
+.PHONY : tools/parsedump.o
+
+# target to build an object file
+tools/parsedump.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/tools/parsedump.c.o
+.PHONY : tools/parsedump.c.o
+
+tools/parsedump.i: tools/parsedump.c.i
+.PHONY : tools/parsedump.i
+
+# target to preprocess a source file
+tools/parsedump.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/tools/parsedump.c.i
+.PHONY : tools/parsedump.c.i
+
+tools/parsedump.s: tools/parsedump.c.s
+.PHONY : tools/parsedump.s
+
+# target to generate assembly for a file
+tools/parsedump.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parsedump.dir/build.make CMakeFiles/parsedump.dir/tools/parsedump.c.s
+.PHONY : tools/parsedump.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -394,6 +461,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lexdump"
+	@echo "... parsedump"
 	@echo "... shell"
 	@echo "... src/cd.o"
 	@echo "... src/cd.i"
@@ -416,6 +484,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parser.o"
+	@echo "... src/parser.i"
+	@echo "... src/parser.s"
 	@echo "... src/read.o"
 	@echo "... src/read.i"
 	@echo "... src/read.s"
@@ -425,6 +496,9 @@ help:
 	@echo "... tools/lexdump.o"
 	@echo "... tools/lexdump.i"
 	@echo "... tools/lexdump.s"
+	@echo "... tools/parsedump.o"
+	@echo "... tools/parsedump.i"
+	@echo "... tools/parsedump.s"
 .PHONY : help
 
 
